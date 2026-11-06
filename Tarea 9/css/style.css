@@ -1,24 +1,46 @@
-section {
-    min-height: 100vh; /* Ocupa el 100% de la altura de la pantalla */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.rgb{
+    background-color:rgb(100,200,200);
+    color: rgb(150,80,200);
+}
+
+.rgba{
+    background-color: rgba(50,50,50,0) ;
+    color: rgba(0,180,150,1);
+}
+
+.hex{
+    background-color: #245B50;
+    color: #D8F3E8;
+}
+
+.hsl{
+    background-color: hsl(338, 40%, 38%);
+    color: hsl(340, 80%, 94%);
+}
+
+.hsla{
+    background-color: hsla(207, 43%, 34%, 1);
+    color: hsla(207, 90%, 94%, 1);
+}
+
+.black{
+    color: black;
+}
+
+.white{
+    background-color: black;
     color: white;
-    font-size: 2rem;
 }
 
-.fondo_1 {
-    background-image: linear-gradient(to top, rgba(238,130,238,0.574), rgba(238,130,238,0.574)), url('../image/fondo1.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+.salmon{
+    color: salmon;
 }
 
-.fondo_2 {
-    background-image: linear-gradient(to top, rgba(238,130,238,0.574), rgba(238,130,238,0.574)), url('../image/fondo2.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+.blue{
+    color: blue;
+}
+
+.lime{
+    color: lime;
 }
