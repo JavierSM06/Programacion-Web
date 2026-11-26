@@ -1,0 +1,16 @@
+h2{
+    color: lightskyblue;
+}
+.color-h2{
+    color:turquoise;
+}
+.color-estilosInternos{
+    color: lightseagreen;
+}
+#color-h1{
+    color: teal;
+    text-align: center;
+}
+#header-01{
+    background-color: azure;
+}
